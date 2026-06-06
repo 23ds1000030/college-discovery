@@ -1,7 +1,3 @@
-connection string -> postgresql://neondb_owner:npg_c2sOnrimtk4K@ep-still-cherry-aol4jgiq.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
-npm install prisma @prisma/client
-DATABASE_URL = "postgresql://neondb_owner:npg_c2sOnrimtk4K@ep-still-cherry-aol4jgiq.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
-
 npx prisma migrate dev --name init
 
 npx prisma generate
