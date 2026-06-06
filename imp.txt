@@ -1,0 +1,15 @@
+connection string -> postgresql://neondb_owner:npg_c2sOnrimtk4K@ep-still-cherry-aol4jgiq.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+npm install prisma @prisma/client
+DATABASE_URL = "postgresql://neondb_owner:npg_c2sOnrimtk4K@ep-still-cherry-aol4jgiq.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+
+npx prisma migrate dev --name init
+
+npx prisma generate
+npx prisma studio
+npx prisma -v -> to see version
+npm install prisma@latest @prisma/client@latest
+npx prisma generate
+npx prisma studio
+npm install -D tsx
+npm install @faker-js/faker
+npm install @tanstack/react-query axios zustand lucide-react clsx -> front end installatioin
